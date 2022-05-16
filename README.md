@@ -1,0 +1,2 @@
+# ScheduleGeneratorBot
+Schedule Generator Bot
