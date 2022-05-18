@@ -5,6 +5,9 @@ plugins {
 group 'org.legitzxdevelopment'
 version '1.0-SNAPSHOT'
 
+sourceCompatibility = '1.17'
+targetCompatibility = '1.17'
+
 repositories {
     mavenCentral()
 }
@@ -17,7 +20,7 @@ dependencies {
     implementation("net.dv8tion:JDA:5.0.0-alpha.11")
 
     // Get rid of red callbacks on startup
-    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
 }
 
 test {
