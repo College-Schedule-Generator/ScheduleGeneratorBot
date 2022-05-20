@@ -21,6 +21,9 @@ dependencies {
 
     // Get rid of red callbacks on startup
     implementation group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+
+    // Java .env plugin
+    implementation group: 'io.github.cdimascio', name: 'java-dotenv', version: '5.1.1'
 }
 
 test {
