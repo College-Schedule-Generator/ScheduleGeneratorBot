@@ -11,11 +11,12 @@ public class Config {
     private final Dotenv dotenv = Dotenv.load();
 
     /**
-     * Gets values from the .env file
-     * @param key       key to search for in the .env file
+     * Gets values from the environment variable table. If the key does not
+     * exist, then search the .env file
+     * @param key       key to search for
      * @return          corresponding value
      */
     public String get(String key) {
-        return dotenv.get(key.toUpperCase());
+        return dotenv.get(key);
     }
 }
