@@ -10,6 +10,6 @@ Schedule Generator Bot
 git clone https://github.com/College-Schedule-Generator/ScheduleGeneratorBot
 cd ScheduleGeneratorBot
 
-./gradlew assemble # *nix
-.\gradle.bat assemble # Windows
+./gradlew run # *nix
+.\gradle.bat run # Windows
 ```
